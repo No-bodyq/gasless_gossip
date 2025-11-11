@@ -44,7 +44,7 @@ export class EmailTemplateService {
 
       await this.transport.sendMail({
         ...payload,
-        from: '"Example Team" <noreply@nextcba.com>',
+        from: '"Hello" <noreply@gaslessgossip.com>',
       });
       this.logger.log('Email sent successfully');
       return true;
